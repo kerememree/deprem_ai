@@ -9,7 +9,7 @@
 [![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart)](https://dart.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Auth%20%2B%20Analytics-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Gemini](https://img.shields.io/badge/Google%20Gemini-AI-4285F4?style=for-the-badge&logo=google)](https://aistudio.google.com)
-[![License](https://img.shields.io/badge/Lisans-MIT-green?style=for-the-badge)](LICENSE)
+
 
 </div>
 

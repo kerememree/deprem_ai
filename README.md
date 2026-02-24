@@ -183,11 +183,6 @@ flutter run
 
 ---
 
-## 📄 Lisans
-
-Bu proje **MIT Lisansı** altında dağıtılmaktadır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
----
 
 <div align="center">
 

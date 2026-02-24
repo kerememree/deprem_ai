@@ -164,10 +164,7 @@ flutter run
 
 | Ana Sayfa | Risk Kartı | Analiz Geçmişi |
 |:---:|:---:|:---:|
-| <img width="338" height="710" alt="image" src="https://github.com/user-attachments/assets/c945fca3-5bc7-4f64-9f4f-0f4fe6c4e24d" />
- | <img width="336" height="709" alt="image" src="https://github.com/user-attachments/assets/786c3a76-0c33-4613-aa4b-5260271846ff" />
- | <img width="334" height="710" alt="image" src="https://github.com/user-attachments/assets/dfcea3f9-36c9-4a65-8435-2c09561a53f9" />
-|
+| <img width="338" height="710" alt="image" src="https://github.com/user-attachments/assets/c945fca3-5bc7-4f64-9f4f-0f4fe6c4e24d" />| <img width="336" height="709" alt="image" src="https://github.com/user-attachments/assets/786c3a76-0c33-4613-aa4b-5260271846ff" />| <img width="334" height="710" alt="image" src="https://github.com/user-attachments/assets/dfcea3f9-36c9-4a65-8435-2c09561a53f9" />|
 
 | Demo Modu | Deprem Haritası | PDF Export |
 |:---:|:---:|:---:|

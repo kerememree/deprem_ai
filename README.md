@@ -88,7 +88,7 @@ lib/
 
 | Kategori | Paket |
 |---|---|
-| AI | `google_generative_ai` (Gemini 1.5 Pro / Flash) |
+| AI | `google_generative_ai` (Gemini 3 Pro / Flash) |
 | Auth | `firebase_auth`, `firebase_analytics`, `firebase_crashlytics` |
 | Yerel DB | `hive`, `hive_flutter` |
 | Grafikler | `fl_chart ^0.69.2` |
@@ -164,11 +164,17 @@ flutter run
 
 | Ana Sayfa | Risk Kartı | Analiz Geçmişi |
 |:---:|:---:|:---:|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
+| <img width="338" height="710" alt="image" src="https://github.com/user-attachments/assets/c945fca3-5bc7-4f64-9f4f-0f4fe6c4e24d" />
+ | <img width="336" height="709" alt="image" src="https://github.com/user-attachments/assets/786c3a76-0c33-4613-aa4b-5260271846ff" />
+ | <img width="334" height="710" alt="image" src="https://github.com/user-attachments/assets/dfcea3f9-36c9-4a65-8435-2c09561a53f9" />
+|
 
 | Demo Modu | Deprem Haritası | PDF Export |
 |:---:|:---:|:---:|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
+| <img width="337" height="709" alt="image" src="https://github.com/user-attachments/assets/4c0050ae-18e8-4ee1-a2e2-182a7e75846e" />
+ | <img width="337" height="707" alt="image" src="https://github.com/user-attachments/assets/0d92cccb-2e08-4316-ac25-c513e33ce9a3" />
+ | <img width="343" height="708" alt="image" src="https://github.com/user-attachments/assets/6bf4c010-5a0a-4985-b7d9-481c820e2a84" />
+ |
 
 ---
 

@@ -54,8 +54,35 @@ assets/.env
 **/google-services.json
 **/GoogleService-Info.plist
 
-# ── Tescilli içerik (Gemini prompt mühendisliği) ──────────────────────────────
+# ── Tescilli içerik — uygulama implementasyonu ────────────────────────────────
+# Ana uygulama dosyaları (ürün kodu)
+lib/main.dart
+
+# Ekranlar
+lib/screens/
+
+# Widget'lar
+lib/widgets/
+
+# Servisler (demo ve örnek şablon hariç)
 lib/services/gemini_service.dart
+lib/services/auth_service.dart
+lib/services/analiz_gecmisi_service.dart
+lib/services/analytics_service.dart
+lib/services/connectivity_service.dart
+lib/services/deprem_api_service.dart
+lib/services/location_service.dart
+lib/services/notification_service.dart
+lib/services/overpass_service.dart
+lib/services/pdf_service.dart
+lib/services/toplanma_alani_service.dart
+lib/services/tracking_service.dart
+lib/services/acil_servis_service.dart
+
+# Core / Config / Localization
+lib/core/
+lib/config/
+lib/l10n/
 
 # ── Dahili geliştirme notları (public repo için gereksiz) ─────────────────────
 *_REHBERI.md
@@ -96,6 +123,7 @@ WIFI_DEBUGGING_NOT.md
 KURULUM.md
 
 # ── Flutter araç/wrapper dosyaları (yerel) ───────────────────────────────────
+/flutter
 /flutter/
 Get
 Run

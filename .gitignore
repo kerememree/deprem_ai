@@ -1,0 +1,105 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment variables (API keys, secrets)
+.env
+assets/.env
+.env.local
+.env.*.local
+
+# Firebase configuration files
+**/google-services.json
+**/GoogleService-Info.plist
+
+# ── Tescilli içerik (Gemini prompt mühendisliği) ──────────────────────────────
+lib/services/gemini_service.dart
+
+# ── Dahili geliştirme notları (public repo için gereksiz) ─────────────────────
+*_REHBERI.md
+*_KURULUM.md
+*_COZUM.md
+*_NOTLARI.md
+*_PLANI*.md
+*_PROGRESS.md
+*_SUBMIT*.md
+HATA_DEBUG.md
+HOT_*.md
+TEST_*.md
+ANDROID_*.md
+APK_*.md
+JAVA_*.md
+NDK_*.md
+PATH_*.md
+MODEL_*.md
+ESLESTIRME_*.md
+TELEFON*.md
+KABLOSUZ*.md
+ADB_*.md
+HACKATHON_*.md
+TIMEOUT_*.md
+PDF_FONT_*.md
+
+# ── Diğer geliştirici araçları ────────────────────────────────────────────────
+*.ps1
+*.log
+flutter_01.log
+nul
+adb_kablosuz.ps1
+GELISTIRME_*.md
+
+# ── Ek dahili notlar ──────────────────────────────────────────────────────────
+FLUTTER_KURULUM_ADIMLARI.md
+WIFI_DEBUGGING_NOT.md
+KURULUM.md
+
+# ── Flutter araç/wrapper dosyaları (yerel) ───────────────────────────────────
+/flutter/
+Get
+Run
+Process
+
+# ── Android build çıktısı ─────────────────────────────────────────────────────
+/android/build/

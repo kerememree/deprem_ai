@@ -1,0 +1,81 @@
+/// Bu dosya gemini_service.dart için örnek şablondur.
+/// Gerçek implementasyon .gitignore ile gizlenmiştir.
+///
+/// Kullanım:
+///   1. Bu dosyayı kopyalayın: cp gemini_service.dart.example gemini_service.dart
+///   2. .env dosyasına API key'inizi ekleyin: GEMINI_API_KEY=your_key_here
+///   3. Kendi analiz prompt'unuzu yazın
+
+import 'dart:io';
+import 'dart:async';
+import 'package:google_generative_ai/google_generative_ai.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import '../config/model_config.dart';
+import '../core/exceptions/app_exceptions.dart';
+
+class GeminiService {
+  // API Key .env dosyasından okunur (güvenlik için asla hardcode etmeyin)
+  static String get _apiKey {
+    final apiKey = dotenv.env['GEMINI_API_KEY'];
+    if (apiKey == null || apiKey.isEmpty) {
+      throw ApiException(
+        'GEMINI_API_KEY bulunamadı! Lütfen .env dosyasını oluşturun.',
+        code: 'INVALID_API_KEY',
+      );
+    }
+    return apiKey;
+  }
+
+  GenerativeModel? _model;
+
+  void resetModel() {
+    _model = null;
+  }
+
+  GenerativeModel _getModel() {
+    _model ??= GenerativeModel(
+      model: ModelConfig.ACTIVE_MODEL,
+      apiKey: _apiKey,
+    );
+    return _model!;
+  }
+
+  /// Bina analizi yapar ve JSON formatında sonuç döner.
+  ///
+  /// [pdfDosya]  — opsiyonel: ruhsat/tapu PDF dosyası
+  /// [fotograflar] — opsiyonel: bina fotoğrafları listesi
+  ///
+  /// Dönen JSON yapısı:
+  /// ```json
+  /// {
+  ///   "risk_skoru": 7.2,
+  ///   "risk_seviyesi": "Yüksek Risk",
+  ///   "tespitler": [
+  ///     { "kategori": "Kolon Çatlağı", "aciklama": "...", "onem": "Kritik" }
+  ///   ],
+  ///   "muhendis_tavsiyesi": "...",
+  ///   "bina_yasi": "...",
+  ///   "kat_sayisi": "...",
+  ///   "yapi_tipi": "...",
+  ///   "beton_sinifi": "...",
+  ///   "hasar_siddeti": "...",
+  ///   "aciliyet_seviyesi": "...",
+  ///   "tahmini_maliyet": "..."
+  /// }
+  /// ```
+  Future<String?> analizYap({
+    File? pdfDosya,
+    List<File>? fotograflar,
+  }) async {
+    // TODO: Kendi Gemini prompt'unuzu buraya yazın
+    // İpuçları:
+    //   - System instruction olarak mühendislik rolü tanımlayın
+    //   - JSON schema'yı prompt içinde belirtin
+    //   - PDF içeriğini base64 ile gönderin
+    //   - Fotoğrafları DataPart olarak ekleyin
+    throw UnimplementedError(
+      'analizYap() metodu henüz implement edilmedi. '
+      'gemini_service.dart.example dosyasını inceleyin.',
+    );
+  }
+}

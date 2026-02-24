@@ -168,10 +168,7 @@ flutter run
 
 | Demo Modu | Deprem Haritası | PDF Export |
 |:---:|:---:|:---:|
-| <img width="337" height="709" alt="image" src="https://github.com/user-attachments/assets/4c0050ae-18e8-4ee1-a2e2-182a7e75846e" />
- | <img width="337" height="707" alt="image" src="https://github.com/user-attachments/assets/0d92cccb-2e08-4316-ac25-c513e33ce9a3" />
- | <img width="343" height="708" alt="image" src="https://github.com/user-attachments/assets/6bf4c010-5a0a-4985-b7d9-481c820e2a84" />
- |
+| <img width="337" height="709" alt="image" src="https://github.com/user-attachments/assets/4c0050ae-18e8-4ee1-a2e2-182a7e75846e" />| <img width="337" height="707" alt="image" src="https://github.com/user-attachments/assets/0d92cccb-2e08-4316-ac25-c513e33ce9a3" />| <img width="343" height="708" alt="image" src="https://github.com/user-attachments/assets/6bf4c010-5a0a-4985-b7d9-481c820e2a84" />|
 
 ---
 
